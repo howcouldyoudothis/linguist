@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<body class="">
+
+
+
+<main role="main">
+  <div class="container">
+
+
+    
+
+
+
+<div class="row">
+
+  <div class="col-lg-4 order-lg-2">
+
+    
+
+    
+
+    
+
+    <hr>
+
+    <h2>Demo</h2>
+
+    <form action="/demo" class="query-box js-demo" method="POST" target="_blank">
+      <p>
+        <label for="demo-q">Type in or paste text:</label>
+        <textarea name="q" class="form-control" rows="5" id="demo-q">こんにちは</textarea>
+      </p>
+
+      <p>
+        <input class="btn btn-secondary" type="submit" value="Detect Language">
+      </p>
+
+      <div id="demo-modal" class="modal" style="display: none;" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg" role="document"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">Detection Result</h4><button name="button" type="submit" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div><div class="modal-body">
+        <div class="js-demo-result"><div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-html" role="tabpanel" aria-labelledby="nav-html-tab">
+    <table class="table table-bordered">
+  <tbody><tr>
+    <th width="25%">Language</th>
+    <th width="25%">Code</th>
+    <th width="25%">Confidence</th>
+    <th width="25%">Reliable</th>
+  </tr>
+    <tr>
+      <td>Japanese</td>
+      <td>ja</td>
+      <td>39.04</td>
+      <td>true</td>
+    </tr>
+</tbody></table>
+
+  </div>
+  <div class="tab-pane fade" id="nav-json" role="tabpanel" aria-labelledby="nav-json-tab">
+    <div class="p-sm-3">
+  <pre>{
+  "data": {
+    "detections": [
+      {
+        "language": "ja",
+        "isReliable": true,
+        "confidence": 39.04
+      }
+    ]
+  }
+}</pre>
+</div>
+
+  </div>
+</div>
+<nav>
+  <div class="nav nav-tabs nav-tabs-bottom" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-html-tab" data-toggle="tab" href="#nav-html" role="tab" aria-controls="nav-html" aria-selected="true">Formatted</a>
+    <a class="nav-item nav-link" id="nav-json-tab" data-toggle="tab" href="#nav-json" role="tab" aria-controls="nav-json" aria-selected="false">JSON</a>
+  </div>
+</nav>
+</div>
+</div></div></div></div>    </form>
+
+  </div>
+
+  
+
+</div>
+
+  </div>
+</main>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-133799-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-133799-14');
+
+
+
+</script>
+
+
+
+
+</body></html>
